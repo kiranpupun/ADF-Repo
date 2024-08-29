@@ -1,0 +1,9 @@
+{
+	"name": "himadriADF134",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ad69da75-7e40-4db9-b732-6e9b90385c33",
+		"tenantId": "3877e201-2962-4ee8-8303-4793a0345c20"
+	}
+}
