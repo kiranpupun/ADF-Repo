@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "Sales_File_2014_2019_USA_UK_IND.csv",
-				"container": "src"
+				"fileName": "Countries_Data_2014To2019.csv",
+				"container": "src1"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
@@ -20,15 +20,11 @@
 		},
 		"schema": [
 			{
+				"name": "Row",
+				"type": "String"
+			},
+			{
 				"name": "Country",
-				"type": "String"
-			},
-			{
-				"name": "Year",
-				"type": "String"
-			},
-			{
-				"name": "Product_Type",
 				"type": "String"
 			},
 			{

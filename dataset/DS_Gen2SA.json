@@ -2,7 +2,7 @@
 	"name": "DS_Gen2SA",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_Gen2SA",
+			"referenceName": "LS_DestSA",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileSystem": "dest"
+				"fileSystem": "dest1"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
